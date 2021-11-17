@@ -1,5 +1,5 @@
 import React from "react";
-import { appName, appDis, colors } from "../../../DataStore";
+import { appName, appDis, clrs } from "../../../DataStore";
 
 export default function AppName() {
   return (
@@ -9,7 +9,7 @@ export default function AppName() {
           fontSize: "20px",
           margin: "0px",
           fontFamily: "Pacifico",
-          color: colors[0],
+          color: clrs[0],
         }}
       >
         {appName}

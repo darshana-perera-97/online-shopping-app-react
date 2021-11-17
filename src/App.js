@@ -1,4 +1,4 @@
-// import "./App.css";
+import "./App.css";
 import { Grid } from "@mui/material";
 import Design from "./Design/Design";
 // #ffbf48   #eb493d

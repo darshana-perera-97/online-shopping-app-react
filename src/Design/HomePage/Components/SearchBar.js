@@ -1,6 +1,6 @@
 import React from "react";
 import { Form } from "react-bootstrap";
-import { colors } from "../../../DataStore";
+import { clrs } from "../../../DataStore";
 
 export default function SearchBar() {
   return (
@@ -10,7 +10,7 @@ export default function SearchBar() {
           <Form.Label
             style={{
               padding: "0px 20px",
-              color: colors[0],
+              color: clrs[0],
               fontWeight: "bold",
             }}
           >
@@ -22,7 +22,7 @@ export default function SearchBar() {
             width="50px"
             style={{
               width: "70vh",
-              borderColor: colors[0],
+              borderColor: clrs[0],
               borderRadius: "10px",
               padding:"1px 10px"
             }}
@@ -33,10 +33,10 @@ export default function SearchBar() {
           }}
             style={{
               borderRadius: "25px",
-              color: colors[1],
-              backgroundColor: colors[0],
+              color: clrs[1],
+              backgroundColor: clrs[0],
               fontWeight: "bold",
-              borderColor:colors[1],
+              borderColor:clrs[1],
               margin:"0px 10px"
             }}
           >
